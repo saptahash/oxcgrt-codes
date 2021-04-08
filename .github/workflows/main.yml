@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on: push
+
+jobs:
+  build:
+    name: Regional reports csvs
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: r-lib/actions/setup-r@master
+        with:
+            r-version: '3.6.1'
+      - name: Install libcurl
+        run: sudo apt-get install libcurl4-openssl-dev
+      - name: Install renv 
+        run: Rscript -e "install.packages('renv', type = 'source')"
+      - name: Check
+        run: Rscript -e "renv::restore()"
+      - name: Run codes
+        run: |
+          chmod +x 'regionalchanges.R'
+          Rscript -e 'regionalchanges.R'
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "OxCGRT Graphs and timeseries Update" -a
+          git push origin main:main     
+          
