@@ -23,10 +23,10 @@ jobs:
       - name: Run codes
         run: |
           ls
-          chmod +x './regionalchanges.R'
-          Rscript -e './regionalchanges.R'
-          chmod +x "./regionalchanges.R"
-          Rscript -e "./regionalchanges.R"
+          chmod +x 'regionalchanges.R'
+          Rscript 'regionalchanges.R'
+          chmod +x "regionalchanges.R"
+          Rscript "regionalchanges.R"
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
