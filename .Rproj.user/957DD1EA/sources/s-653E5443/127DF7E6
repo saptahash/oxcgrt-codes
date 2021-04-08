@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617040489010.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "127DF7E6",
+    "lastKnownWriteTime" : 1617460654,
+    "last_content_update" : 1617630139253,
+    "path" : "C:/Users/sapta/OneDrive/Desktop/oxcgrtRA/risk-of-openness-2.0/regionalchanges.R",
+    "project_path" : "regionalchanges.R",
+    "properties" : {
+        "cursorPosition" : "53,0",
+        "marks" : "<:0,0\n>:0,0",
+        "scrollLine" : "40",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

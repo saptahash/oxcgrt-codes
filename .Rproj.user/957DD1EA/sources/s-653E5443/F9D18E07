@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617404377743.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F9D18E07",
+    "lastKnownWriteTime" : 2717261902192,
+    "last_content_update" : 1617404377743,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B1DD777A",
+        "caption" : "oxcgrtdata",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=oxcgrtdata&cache_key=B1DD777A",
+        "displayedObservations" : "85188",
+        "environment" : "",
+        "expression" : "oxcgrtdata",
+        "object" : "oxcgrtdata",
+        "preview" : "0",
+        "totalObservations" : "85188",
+        "variables" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
