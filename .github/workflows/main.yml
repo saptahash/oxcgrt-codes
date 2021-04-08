@@ -22,8 +22,9 @@ jobs:
         run: Rscript -e "renv::restore()"
       - name: Run codes
         run: |
-          chmod +x 'regionalchanges.R'
-          Rscript -e 'regionalchanges.R'
+          ls
+          chmod +x '../regionalchanges.R'
+          Rscript -e '../regionalchanges.R'
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
